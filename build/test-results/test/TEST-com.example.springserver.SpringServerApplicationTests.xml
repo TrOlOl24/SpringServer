@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springserver.SpringServerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-12T07:10:05" hostname="LAPTOP-B08BAVNR" time="1.391">
+  <properties/>
+  <testcase name="getSparePart()" classname="com.example.springserver.SpringServerApplicationTests" time="1.391"/>
+  <system-out><![CDATA[10:09:55.284 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.springserver.SpringServerApplicationTests]: SpringServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:09:55.549 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.springserver.SpringServerApplication for test class com.example.springserver.SpringServerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-12T10:09:56.724+03:00  INFO 10812 --- [    Test worker] c.e.s.SpringServerApplicationTests       : Starting SpringServerApplicationTests using Java 17.0.7 with PID 10812 (started by ПОЛ in C:\SpringServer)
+2023-06-12T10:09:56.727+03:00  INFO 10812 --- [    Test worker] c.e.s.SpringServerApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-06-12T10:09:58.701+03:00  INFO 10812 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-12T10:09:58.869+03:00  INFO 10812 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 1 JPA repository interfaces.
+2023-06-12T10:09:59.906+03:00  INFO 10812 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-12T10:10:00.005+03:00  INFO 10812 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-12T10:10:00.009+03:00  INFO 10812 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-12T10:10:00.192+03:00  INFO 10812 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-12T10:10:00.363+03:00  INFO 10812 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-12T10:10:00.387+03:00  INFO 10812 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-12T10:10:00.808+03:00  INFO 10812 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@521ba38f
+2023-06-12T10:10:00.810+03:00  INFO 10812 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-12T10:10:00.893+03:00  INFO 10812 --- [    Test worker] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2023-06-12T10:10:00.895+03:00  WARN 10812 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-06-12T10:10:01.348+03:00  INFO 10812 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-12T10:10:03.007+03:00  INFO 10812 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-12T10:10:03.154+03:00  INFO 10812 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-12T10:10:04.259+03:00  WARN 10812 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-12T10:10:05.225+03:00  INFO 10812 --- [    Test worker] c.e.s.SpringServerApplicationTests       : Started SpringServerApplicationTests in 9.212 seconds (process running for 12.565)
+[SparePart{id=1, model='Audi', type='Аккумулятор', name='Аккумулятор 68AH/380A', price=25000, number=2, model_logo='logo', type_picture='picture'}, SparePart{id=2, model='Audi', type='Аккумулятор', name='Аккумулятор 34AH/400A', price=40000, number=4, model_logo='logo', type_picture='picture'}, SparePart{id=3, model='Audi', type='Аккумулятор', name='Аккумулятор 72AH/420A', price=30000, number=3, model_logo='logo', type_picture='picture'}, SparePart{id=4, model='Audi', type='Диск', name='Диск колесный 85Jx20 H2 ET43', price=50000, number=10, model_logo='logo', type_picture='picture'}, SparePart{id=5, model='BMW', type='Аккумулятор', name='Аккумулятор 20AH/300A', price=20000, number=1, model_logo='logo', type_picture='picture'}, SparePart{id=6, model='BMW', type='Аккумулятор', name='Аккумулятор 54AH/350A', price=50000, number=3, model_logo='logo', type_picture='picture'}, SparePart{id=7, model='BMW', type='Диск', name='Диск колесный 85Jx20 H1', price=1000000, number=15, model_logo='logo', type_picture='picture'}, SparePart{id=8, model='Reno', type='Аккумулятор', name='Аккумулятор 25AH/420A', price=10000, number=5, model_logo='logo', type_picture='picture'}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
